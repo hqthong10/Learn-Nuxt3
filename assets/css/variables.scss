@@ -1,0 +1,25 @@
+@use "sass:math";
+@function torem($px) {
+    // @return ($px / 16)+0rem;
+    @return math.div($px, 16) +0rem;
+}
+
+// background
+$bg-main-gradient: linear-gradient(to right, #f33f5c 1%, #f1964a);
+$bg-login-gradient: linear-gradient(61deg, #f33f5c 0%, rgba(241, 150, 74, 0) 126%), linear-gradient(to bottom, #fff, #fff);
+$bg-login-input: #f7f8fa;
+
+//color
+$cl-main: #f33f5c;
+$cl-audio: #004e8d;
+$cl-red: #f33f5c;
+$cl-border: #e5e5e5;
+$cl-title: #000000;
+$cl-text: #333333;
+$cl-sub-text: #8d8989;
+
+// radius
+$radius: 4px;
+$radius-panel: 8px;
+
+$width-container: 1140px;
